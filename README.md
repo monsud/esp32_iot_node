@@ -1,5 +1,10 @@
 # ESP32 Industrial IoT Node
 
+![ESP32](https://img.shields.io/badge/ESP32--S3-ESP--IDF%20v5.4.3-blue)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-multicore-green)
+![MQTT](https://img.shields.io/badge/MQTT-HiveMQ-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 > **Firmware** — FreeRTOS · ESP-IDF · MQTT · SPIFFS  
 > Target: ESP32 | Framework: ESP-IDF ≥ 5.1
 
