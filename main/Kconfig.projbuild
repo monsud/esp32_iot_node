@@ -1,0 +1,43 @@
+menu "IoT Node Configuration"
+
+    config BROKER_URL
+        string "MQTT Broker URL"
+        default "mqtt://broker.hivemq.com"
+
+    config MQTT_TOPIC_PREFIX
+        string "MQTT Topic Prefix"
+        default "/iot/node/esp32"
+
+    config MQTT_QOS
+        int "MQTT QoS Level"
+        default 1
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "AREA1"
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "P4ssword@01"
+
+    config ESP_MAXIMUM_RETRY
+        int "WiFi Max Retry"
+        default 5
+
+    config SENSOR_TASK_STACK_SIZE
+        int "Sensor task stack size"
+        default 4096
+
+    config PROCESSING_TASK_STACK_SIZE
+        int "Processing task stack size"
+        default 4096
+
+    config LOGGER_TASK_STACK_SIZE
+        int "Logger task stack size"
+        default 4096
+
+    config MONITOR_TASK_STACK_SIZE
+        int "Monitor task stack size"
+        default 4096
+
+endmenu
