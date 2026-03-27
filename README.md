@@ -5,11 +5,6 @@
 ![MQTT](https://img.shields.io/badge/MQTT-HiveMQ-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-> **Firmware** — FreeRTOS · ESP-IDF · MQTT · SPIFFS  
-> Target: ESP32 | Framework: ESP-IDF ≥ 5.1
-
----
-
 ## Overview
 
 A production-grade embedded firmware for a WiFi-connected environmental
